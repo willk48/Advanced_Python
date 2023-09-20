@@ -3,6 +3,8 @@
 Week 1 Notes:
 -Read Chapter 3
 -Completed Coding bat exercises
+
+Notes:
   The match/case function in python seems pretty cool
   The way try catch works here is pretty intuitive as well
   Having some trouble find a use case for some of this string formatting, seems like the kind of thing I would have to lookup to use anyway
