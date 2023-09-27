@@ -24,3 +24,11 @@ class Special:
       print(f"Here's your very grown-up {flavor}...lunch.")
     case order:
       print(f"Enjoy your {order}.")
+
+Week 2 Notes:
+-Read Chapter 4
+-Created a basic script for choosing names out of a hat that utilizes import random
+-Created a second script that uses functions from aforementioned and adds funtionality
+-Completed Flip the Switch, Remove First and Last Character, Convert a string to an array, Fake Binary, Keep Hydrated, and Reversed Strings on codewars
+-calling list() on a string and getting the array is super cool when used in conjuction with str.join()
+-importing in python was way weirder than I thought
