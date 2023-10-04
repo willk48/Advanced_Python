@@ -47,7 +47,7 @@ def controller(num):
             return [2,2]
         case 99:
             done = True
-            
+
 board = [["-","-","-"],["-","-","-"],["-","-","-"]]
 controls = [["1","2","3"],["4","5","6"],["7","8","9"]]
 done = False
@@ -57,27 +57,7 @@ while not done:
     make_controls()
     print("This is the numbering scheme for inputs")
     user_place = int(input("P1: Enter which space you would like to go: "))
-    match user_place:
-        case 1:
-            place_x(0,0)
-        case 2:
-            place_x(0,1)
-        case 3:
-            place_x(0,2)
-        case 4:
-            place_x(1,0)
-        case 5:
-            place_x(1,1)
-        case 6:
-            place_x(1,2)
-        case 7:
-            place_x(2,0)
-        case 8:
-            place_x(2,1)
-        case 9:
-            place_x(2,2)
-        case 99:
-            done = True
+    place_x(controller(user_place)[0],controller(user_place)[1])
     make_board()
     for i in range(0,3):
         if board[i][0]=="x" and board[i][1]=="x" and board[i][2]=="x":
@@ -115,27 +95,7 @@ while not done:
     make_controls()
     print("This is the numbering scheme for inputs")
     user_place = int(input("P2: Enter which space you would like to go: "))
-    match user_place:
-        case 1:
-            place_o(0,0)
-        case 2:
-            place_o(0,1)
-        case 3:
-            place_o(0,2)
-        case 4:
-            place_o(1,0)
-        case 5:
-            place_o(1,1)
-        case 6:
-            place_o(1,2)
-        case 7:
-            place_o(2,0)
-        case 8:
-            place_o(2,1)
-        case 9:
-            place_o(2,2)
-        case 99:
-            done = True
+    place_o(controller(user_place)[0],controller(user_place)[1])
     make_board()
     for i in range(0,3):
         if board[i][0]=="x" and board[i][1]=="x" and board[i][2]=="x":
