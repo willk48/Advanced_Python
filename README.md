@@ -32,3 +32,10 @@ Week 2 Notes:
 -Completed Flip the Switch, Remove First and Last Character, Convert a string to an array, Fake Binary, Keep Hydrated, and Reversed Strings on codewars
 -calling list() on a string and getting the array is super cool when used in conjuction with str.join()
 -importing in python was way weirder than I thought
+
+Week 3 Notes:
+-read chapter 5
+-learned about the is comparator that compares identity, useful for if something 'is None'
+-it may be annoying to do anything with complex modules without global variables
+-book set up the tic tac toe project very well
+-the hungarian notation part seems pretty funny
