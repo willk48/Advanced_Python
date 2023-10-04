@@ -37,5 +37,7 @@ Week 3 Notes:
 -read chapter 5
 -learned about the is comparator that compares identity, useful for if something 'is None'
 -it may be annoying to do anything with complex modules without global variables
+-lists appear to be a little syntactically confusing with some function calls being func(item) while others are item.func
 -book set up the tic tac toe project very well
--the hungarian notation part seems pretty funny
+-did a normal draw style script with a running and exit state
+-the hungarian notation part was pretty funny, for some reason it was just a little goofy to take all the work that went into getting rid of explicit types in python just to still keep track of it in the naming scheme. This would also be super confusing if items changed types at any point (size restriction, memory usage, speed)
