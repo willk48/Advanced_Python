@@ -37,3 +37,17 @@ def two_highest(arg1):
             return []
 #this solution uses set to remove duplicates from the list and then sort to sort the list in descending order
 #after this process I just trim the list down to the requested size and return 
+
+#Invert values
+#This is a problem that requires the copying of a list just to hammer it into my mind that you cant just do =
+#turns out after some research there are lots of ways to do this. Useful here are import copy (.copy, .deepcopy) and just calling list(original list)
+def invert(lst):
+    copy_list = list(lst)
+    for i in range(0,len(lst)):
+        copy_list[i]=copy_list[i]*-1
+    return copy_list
+#this did not modify the original as intended
+#in true codewars fashion, it turns out there was an even easier way to do this one too XD
+#def invert(lst):
+#    return [-x for x in lst]
+#The only language where you can just write return the thing but negative
