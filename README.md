@@ -52,3 +52,15 @@ Week 4 Notes:
 -this part was a bit confusing to write as a standalone program, but I can see the usefulness of this behavior in a situation where arguments are called from -the terminal, similar to how powershell commands work with additional optional parameters
 -for a lambda function I wrote a simple higher function that returns the larger of 2 given arguments
 -for an example of interior functions I wrote a program that can generate factory functions for given powers (power2(arg), power3(arg), etc.)
+
+Week 5 Notes:
+-read Chapter 7
+-the classes and methods sections seemed pretty straightforward, similar to other languages and pretty simple to follow
+-it feels a little weird syntactically to be doing this without OOP and just writing the rest of the script below, but i can
+  assume for larger works with multiple modules this will fall into place more naturally
+-im confused on the purpose of the getter and setter method section, in my practice for this week I did not need any of it
+-not sure where you would use a special method, seems like a seldom used feature, not really sure whats going on
+  in that section
+-created a program that ranks cars 0-60 times and allows for the insertion of a new car and time on the list
+-learned the print formatting in python
+-did several codewars problems and learned some cool list slicing trick and saw a neat lambda function in action
