@@ -1,29 +1,29 @@
 # Advanced_Python
 
 Week 1 Notes:
--Read Chapter 3
--Completed Coding bat exercises
+-Read Chapter 3\
+-Completed Coding bat exercises\
 
-Notes:
-  The match/case function in python seems pretty cool
-  The way try catch works here is pretty intuitive as well
-  Having some trouble find a use case for some of this string formatting, seems like the kind of thing I would have to lookup to use anyway
-  A little confusion on what the guard statement is doing here:
+Notes:\
+  The match/case function in python seems pretty cool\
+  The way try catch works here is pretty intuitive as well\
+  Having some trouble find a use case for some of this string formatting, seems like the kind of thing I would have to lookup to use anyway\
+  A little confusion on what the guard statement is doing here:\
 
-class Special:
-  TODAY = 'lasagna'
+class Special:\
+  TODAY = 'lasagna'\
   
-  lunch_order = input("What would you like for
-  lunch? ")
+  lunch_order = input("What would you like for\
+  lunch? ")\
   
-  match lunch_order:
-    case 'salad' | 'soup':
-      print('Eating healthy, eh?')
-    case ice_cream if 'ice cream' in ice_cream:
-      flavor = ice_cream.replace('ice cream', '').strip()
-      print(f"Here's your very grown-up {flavor}...lunch.")
-    case order:
-      print(f"Enjoy your {order}.")
+  match lunch_order:\
+    case 'salad' | 'soup':\
+      print('Eating healthy, eh?')\
+    case ice_cream if 'ice cream' in ice_cream:\
+      flavor = ice_cream.replace('ice cream', '').strip()\
+      print(f"Here's your very grown-up {flavor}...lunch.")\
+    case order:\
+      print(f"Enjoy your {order}.")\
 
 Week 2 Notes:
 -Read Chapter 4\
@@ -53,7 +53,7 @@ Week 4 Notes:
 -for a lambda function I wrote a simple higher function that returns the larger of 2 given arguments\
 -for an example of interior functions I wrote a program that can generate factory functions for given powers (power2(arg), power3(arg), etc.)\
 
-Week 5 Notes:\
+Week 5 Notes:
 -read Chapter 7\
 -the classes and methods sections seemed pretty straightforward, similar to other languages and pretty simple to follow\
 -it feels a little weird syntactically to be doing this without OOP and just writing the rest of the script below, but i can\
