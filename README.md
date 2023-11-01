@@ -64,3 +64,22 @@ Week 5 Notes:
 -created a program that ranks cars 0-60 times and allows for the insertion of a new car and time on the list\
 -learned the print formatting in python\
 -did several codewars problems and learned some cool list slicing trick and saw a neat lambda function in action\
+
+Week 6 Notes:\
+-read Chapter 8\
+-this is first time I have seen this notation of LBYL and EAFP to describe error handling behavior\
+-usually in other languages you have to check before or the program might not even run\
+-I added the code referenced in the book to my rank cars program starting at line 53\
+-Other than some semantics, this seems very similar to error handling in java, 'catch the default error',\
+   if the error is not specific enough write your own etc.\
+-functionally in python 'throws' is replaced by raise\
+-wrote a quick program to raise an exception to see some of the default behavior\
+-It is interesting to think about when a raised exception would be used over a series of blocks\
+-at a cursory glance it seems like the most likely use case would be internal processes that\
+  need to reference whether or not a function has exectued before proceeding. As in, if I had a function\
+  A that has subprocesses a and b which depend on the type of the argument. I may want subprocesses to return errors\
+  and break rather than hanging and waiting for my try block to kick in.
+-the finally structure is pretty cool and leaves time to close file or input streams and tidy up in practice\ 
+-wrote a simple higher lower guessing game using exceptions to practice the syntax\
+-did a few code wars, the higher lower game was pretty tough to nail down perfectly,\
+  so that was the majority of my time spent this week
