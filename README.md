@@ -82,4 +82,45 @@ Week 6 Notes:\
 -the finally structure is pretty cool and leaves time to close file or input streams and tidy up in practice\ 
 -wrote a simple higher lower guessing game using exceptions to practice the syntax\
 -did a few code wars, the higher lower game was pretty tough to nail down perfectly,\
-  so that was the majority of my time spent this week
+  so that was the majority of my time spent this week\
+
+Week 7 Notes:\
+-its pretty cool that while loops have an else clause, I did not know that going in\
+-tuple, list, deque, set, and dict\
+-adding a comma after a single item to initialize a tuple seems pretty cool,\
+  im sure it will come up at some point i.e. order = ("latte",)\
+-deques seem super cool and I will probably make a program that uses this\
+-sets also seems like a super cool data type and I will do something with this too\
+-dictionaries are just hashmaps so that seems pretty straightforward\
+-alot of these iterable built-ins seem super useful\
+-time example on page 413 is pretty cool to show how python evaluates all the items at launch\
+-generator seems like an interesting albiet hard to use structure. I am not sure if I will\
+  have time this week to make something with this, but it might be worth it at some point\
+-There was a lot to cover in these chapters and I am feeling a bit overmatched material wise\
+  by this volume of new information\
+-"Make sure you only use a list comprehension when you actually need a list object"\
+-"There’s something about powerful one-liners that gets programmers very excited.\ 
+  We really like being clever with our code."\
+-I will probably make a list comprehension in addition to playing with a deque and a set\
+-I am a little confused on what is going on in the coroutine section starting at page 450\
+  What is going on with the yield here?\
+-created a program that does the fib sequence with a generator instead of the stanadard way\
+-really helped me see how satisfying it was when it it worked out in so few lines\
+-I wrote that part several more convoluted ways and encountered strange outputs\
+-turns out simplifying my code was the best way to avoid this\
+-wrote a simple program to alphabetize words that the user inputs in real time with a set\
+-set comes with some cool built-ins in addition to auto deleting duplicates, super neat\
+-played around with a deque in a bit of a play on words by making the game of War card game\
+-that game made the most sense to me for a deque because the game needs to maintain the order\
+  of the players cards as each deck inevitably loops until a player wins\
+-I did not fully encorperate the rules of the game based on time limitations and I was unable to implement\
+  different handling for face cards and played all the hands by sheer numerical value\
+-aces are 0s and beat all\
+-this game actually rarely terminates in this format, so to make sure I terminate on simming, I had to make\
+ the player win all ties\
+-these are semantic problems that are outside the scope of what I am trying to learn here, so this is where I\
+  decided to stop\
+-added cool hidden functionality to SIM the whole game if you type 'SIM' instead of pressing enter\
+-At this point I am about 5.5 hours into this weeks work and I do not think I will get any codewars done for this week.\
+
+
