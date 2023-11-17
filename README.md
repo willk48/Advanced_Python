@@ -123,4 +123,17 @@ Week 7 Notes:\
 -added cool hidden functionality to SIM the whole game if you type 'SIM' instead of pressing enter\
 -At this point I am about 5.5 hours into this weeks work and I do not think I will get any codewars done for this week.\
 
-
+Week 8 Notes:\
+-Reading and writing from files was pretty straightforward\
+-Seems super useful to stack errors in another text file far away\
+-would make it way easier to have a log of values that doesnt go away between function calls, new terminal instances\
+-made a program that uses OOP to instantiate a data set that is a file so I dont have to open and close it with a path everytime\
+-This chapter was pretty straightforward
+-inheritance in python is super satisfying and personally easier to comprehend than java in this simple cases\
+-using super to just get methods for free and being able to just call the parent init on the child class and move on seems pretty cool\
+-I am a little confused on the general principles of MRO\
+-"the linearization process will always look\
+for the next-nearest ancestor of the class being considered, as long as\
+that ancestor is not being inherited by any ancestor not yet considered."\
+-In practice it seems I just need to make sure the multiple inheritances are in the right order\
+-that is it will evaluate as per the above quote, so i just need to make sure the most recent parent is the expected functionality\
