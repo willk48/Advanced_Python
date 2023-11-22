@@ -137,3 +137,13 @@ for the next-nearest ancestor of the class being considered, as long as\
 that ancestor is not being inherited by any ancestor not yet considered."\
 -In practice it seems I just need to make sure the multiple inheritances are in the right order\
 -that is it will evaluate as per the above quote, so i just need to make sure the most recent parent is the expected functionality\
+
+Week 9 Notes:\
+-This chapter was pretty cool but required 2 readings to fully grasp\
+-metaclasses seem pretty neat and it would be fun to play around with those when i have some more time\
+-I created an abstract class for character models in the context of a game and created a few classes to\
+  demonstrate the funtionality of this framework\
+-I used a cool progress bar i found on stackoverflow to visually see the speed difference, link and\
+  comments in the script\
+-This week was a bit shorter because we met on friday, so I only messed around with this program in\
+  various iterations of making it work simpler\
