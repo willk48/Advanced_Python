@@ -147,3 +147,30 @@ Week 9 Notes:\
   comments in the script\
 -This week was a bit shorter because we met on friday, so I only messed around with this program in\
   various iterations of making it work simpler\
+
+Week 10 Notes:\
+-This chapter was a lot of setup on how to use the async library\
+-I am a little confused on the order of operations here\
+-So we establish async methods that have the capacity to wait\
+-Write out the rest of the behavior\
+-and then proceed in the main methods to open and close the async\
+  like a filestream?\
+-how does the program know when a task is completed?
+  is that something we have to do?\
+-gather: "I pass the awaitables I want to run to asyncio.gather()\
+  in the order I want their values returned."\
+-the coroutines part has the main logic, the iterables and generators
+  appear to function in the same fashion\
+-made a program that demonstrates a visual speed for a fake relay race\
+-Using a set of underscores as a track, not sure which type yet, possibly a queue\
+-use async to advance the player icon such that one player completes a leg of the race\
+  the next player runs a leg, and the first player anchors to demonstrate async principles\
+-I had a bit of a misunderstanding about this library when we talked about making a simultaneous\
+  race, that would be more parallelism and not concurrency in drawing both tracks as each tracks update\
+  independently but have to be drawn at the same frame to demonstrate 2 runners both running at different\ 
+  speeds. Most of the further research I did about async indicated that it was mostly only ever used for\
+  a kind of one process start, second process start,\
+  let them finish when they have to, concurrency not running processes necessarily in parallel (HTTP requests)\
+  So I decided to do this kind of relay race instead of running both runners in parallel. But I could have changed\
+  the scope of the problem to print the time each character from last weeks example would take to run 100 units and print\
+  those times, possible future practice
