@@ -174,3 +174,25 @@ Week 10 Notes:\
   So I decided to do this kind of relay race instead of running both runners in parallel. But I could have changed\
   the scope of the problem to print the time each character from last weeks example would take to run 100 units and print\
   those times, possible future practice
+
+Week 11 Notes:\
+-this chapter seems super cool\
+-this is what i thought last weeks chapter would be 
+-I would like to make a simulation type program where workers have a queue and it tells you how long it\
+  would take with 1 worker, 2 workers, etc and the wages paid for that time ass you add people. This would\
+  keep some realism but make it so I can still use threads as intended to runs processes in parallel\
+-I am kinda confused on the locks section if we can talk about that during the meeting\
+-Producer/Consumer problem is a lot to work through, I think I understand what is going on, but had to stop\
+  here and watch a youtube video becuase I was getting lost\
+-Proceed with test program:\
+-I had an easy time setting up the enviroment like usual but I was held back a little by my low-fidelity\
+  I wish I had come in a little less eager, because this took an incredible amount of time for very little gain\
+-I stopped here to do some testing with really basic threading stuff and I thought I had it down, but I could just\
+  not get my example to work as intended\
+-After a ton of revisions I am simpliy out of time this week and will likely have to come back to this down the line\
+-I cannot get this program structured this way to run threads without implmenting some sort of deque. I realize this is\
+  most likely due to the way I am generating a random job, but I was unable to track down why it wouldn't work after\
+  trying out several different structures\
+-I got stuck mostly becuase I couldn't figure out how to make the functions in the queue of orders run when I wanted them to\
+  If I added '()' the code ran when I initialized it. When I ommited them I did not really get why it worked and I think that\
+  may have been the issue the whole time.\
