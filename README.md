@@ -196,3 +196,28 @@ Week 11 Notes:\
 -I got stuck mostly becuase I couldn't figure out how to make the functions in the queue of orders run when I wanted them to\
   If I added '()' the code ran when I initialized it. When I ommited them I did not really get why it worked and I think that\
   may have been the issue the whole time.\
+
+Week 12:\
+-Set out to fix last week's program\
+-After skimming chapter 20 on testing\
+  I will attempt to add a few unit tests to the program once it is operational\
+-the mock inputs section and the GUI testing sections seem pretty useful\
+-this chapter had lots of tools for testing that are/were in use when the book was written\
+-Devs are usually pretty stubborn with this stuff but I still wonder if the third-party 
+  software recommendations are still in use.
+-changed alot of structural things with questionable returns but the first breakthrough I had\
+  required me to get rid of the sleep command entirely and calculate the time based\
+  on the time the user sets for each task.
+-the threaded section is calculated based on the worker that took the longest to account for\
+  odd numbers of orders\
+-Made up to 2 workers\
+-elimnating sleep and waiting made a world of difference here\
+-changed up all the functions to work in or out of verbose mode\
+  that prints the start and finish like before\
+-I was unable to get it to work exactly as I intended last week but this is a good demo\
+  and helped me better understand the GIL as a result of continued work in threading\
+-Because of the randomness the program produces different results, as in the number of items that\
+  make the second worker cheaper than one changes often\
+-Fun to play with and I am glad I was able to complete this section with some understanding\
+-wrote 2 pytest tests for split list and the main clothing item methods to practice the syntax\
+-both passes and I got to play around with pytest in the terminal and use some of the settings\
